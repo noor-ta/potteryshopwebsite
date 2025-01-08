@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Cover section */
+.wrapper {
+  width: 1170px;
+  margin: auto;
+}
+.Cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/cover\ img.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.nav-area {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+  padding-right: 10px;
+}
+.nav-area li {
+  display: inline-block;
+}
+.nav-area li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 20px;
+  font-size: 14px;
+}
+.nav-area li a:hover {
+  background: #fff;
+  color: #333;
+}
+.nav-area li input {
+  background-color: transparent;
+  border-radius: 3px;
+  outline: none;
+  color: rgb(67, 67, 67);
+  padding: 0 6px;
+}
+
+.logo img {
+  position: absolute;
+  width: 150px;
+  float: left;
+  padding-left: 0;
+  padding-top: 0;
+}
+.Welcome-text {
+  position: absolute;
+  margin: 20% 30%;
+  text-align: center;
+}
+.Welcome-text h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 80px;
+  font-weight: bold;
+}
+.Welcome-text p {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: light;
+}
+
+/* New In Stock section */
+.textOnTop {
+  padding-top: 40px;
+}
+.textOnTop h2 {
+  display: inline-block;
+  font-size: 40px;
+  font-weight: bold;
+  color: #343f3a;
+}
+.textOnTop p {
+  display: inline-block;
+  float: right;
+  font-size: 20px;
+  padding-top: 0%;
+  color: #343f3a;
+}
+
+.images ul {
+  padding-left: 0%;
+}
+.images li {
+  display: inline-block;
+  padding-top: 30px;
+}
+.images ul li img {
+  display: inline;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  padding: 5px 20px;
+}
+
+/* About The Project section */
+.aboutTheProject h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.pAboutTheProject {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  padding-top: 150px;
+}
+.imgAboutTheProject {
+  float: right;
+  width: 400px;
+  border-radius: 0px 0px 0px 200px;
+  padding-top: 40px;
+}
+
+.imgAboutTheProjectLeft {
+  width: 400px;
+  float: left;
+  border-radius: 0px 200px 0px 0px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+
+.pAboutTheProjectRight {
+  color: #fff;
+  text-align: left;
+  font-size: 30px;
+  padding-top: 150px;
+}
+
+/* Collections Section */
+.btn-secondary {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.roundImgText h2 {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.roundImgText img {
+  object-fit: cover;
+}
+/* WORKSHOPS Section */
+.workshopImg {
+  width: 400px;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  border-radius: 40px;
+}
+.workshopTextArea {
+  padding-top: 80px;
+}
+.workshopTextArea h2 {
+  color: #343f3a;
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+}
+.workshopTextArea p {
+  color: #343f3a;
+  font-size: 25px;
+  text-align: left;
+}
+#workshopTextAreaButton {
+  margin-left: 0%;
+}
+/* Footer */
+.nav a {
+  color: #f2eee7;
+}
+
+.sectionsArea h5 {
+  font-weight: bold;
+  color: #f2eee7;
+  font-size: 20px;
+}
